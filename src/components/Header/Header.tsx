@@ -1,5 +1,4 @@
 import logo from '../../assets/images/logo.png';
-// import { ReactComponent as Burger } from '../../assets/images/burger.svg';
 import { HeaderUserInfo } from '../HeaderUserInfo/HeaderUserInfo';
 import { HeaderWrapper, StyledLink, Nav, Image, Div, Burger } from './Header.styles';
 

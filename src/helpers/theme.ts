@@ -1,9 +1,20 @@
 export const theme = {
   colors: {
     primary_p50: '#F5CC82',
+    primary_p20: '#BE8317',
+    primary_p30: '#DB9E2F',
+    primary_p80: '#FDF1DC',
     primary_p90: '#FFF8EC',
+    primary_p100: '#FFFDFA',
     secondary: '#3D3D3D',
     secondary_s20: '#282828',
+    secondary_s80: '#E1DCD0',
+    secondary_s90: '#F8F6F1',
+    secondary_s100: '#FDFDFD',
+    light: '#F5F5F5',
+    light_s20: '#FFFFFF',
+    neutral_n30: '#353535',
+    success_su40: '#0F9D58',
   },
   fontWeights: {
     regular: 400,
@@ -12,6 +23,7 @@ export const theme = {
     bold: 700,
   },
   fontSizes: {
+    xxs: '10px',
     xs: '12px',
     sm: '14px',
     md: '16px',

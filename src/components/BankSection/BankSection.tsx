@@ -1,8 +1,7 @@
 import { BankCard } from '../BankCard/BankCard';
 import { ReactComponent as AddCardIcon } from '../../assets/images/addCardIcon.svg';
+import { banksArray } from '../../helpers/mockData';
 import { Wrapper, BanksWrapper, Div, Button } from './BankSection.styles';
-
-const banksArray = [{ data: 'Signature RBC visa ( ****3234)' }, { data: 'TD Bank Debit ( ****0024)' }];
 
 export const BankSection = () => {
   return (

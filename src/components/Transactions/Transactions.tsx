@@ -1,28 +1,6 @@
 import { Transaction } from '../Transaction/Transaction';
-import card from '../../assets/images/card.svg';
-import wallet from '../../assets/images/wallet.svg';
+import { transactionsArray } from '../../helpers/mockData';
 import { ButtonTab, ButtonsWrapper, TransactionsWrapper, ShowMore, Div } from './Transactions.styles';
-
-const transactionsArray = [
-  {
-    image: card,
-    title: 'Cineplex Inc.',
-    info: 'Sept 24, Payment',
-    sum: '-$42.50',
-  },
-  {
-    image: wallet,
-    title: 'RBC Royal Bank',
-    info: 'Aug 1, Transfer from bank',
-    sum: '+$500.00',
-  },
-  {
-    image: card,
-    title: 'Cineplex Inc',
-    info: 'Sept 24, Payment',
-    sum: '-$42.50',
-  },
-];
 
 export const Transactions = () => {
   return (
